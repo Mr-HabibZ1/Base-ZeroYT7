@@ -707,9 +707,9 @@ if (args.length == 0) return reply(`Example: ${prefix + command} Hai`)
 buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
 zeroyt7.sendMessage(from, buffer, sticker, { quoted: ftrol })
 break
-case 'sticker':Imam habib
-case 'stiker':Imam habib
-case 's':imam habib
+case 'sticker':
+case 'stiker':
+case 's':
 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 let media = await zeroyt7.downloadAndSaveMediaMessage(encmedia, './database/media_user')
