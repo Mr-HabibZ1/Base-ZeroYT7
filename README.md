@@ -5,9 +5,9 @@
 
 <p align="center">
 
-- 👼 My name is Zero YT7
+- 👼 My name is Hikana Botz 7 Official
 
-- 🗣️ I am 19 years old 
+- 🗣️ I am 18 years old 
 
 - 🔭 I am Not programmer
  
@@ -34,10 +34,10 @@
 
 ## ```FOLLOW ALL SOSIALMEDIA ME```
 <p align="center">
-<a href="https://instagram.com/Zero_YT7"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-<a href="https://wa.me/6285157740529"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/ZeroYT7"><img src="https://img.shields.io/badge/YouTube Zero YT7-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/ZeroYT7" /><br>
-<a href="https://tiktok.com/@_zeroyt7"><img src="https://img.shields.io/badge/Tiktok Zero YT7-black?style=for-the-badge&logo=tiktok&logoColor=ff000000&link=https://tiktok.com/@zeroyt7" /></a>
+<a href="https://instagram.com/habibimampro"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+<a href="https://wa.me/6282160795453"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://youtube.com/@HikanaBotz"><img src="https://img.shields.io/badge/YouTube Zero YT7-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/ZeroYT7" /><br>
+<a href="https://tiktok.com/@imamhabibam"><img src="https://img.shields.io/badge/Tiktok Zero YT7-black?style=for-the-badge&logo=tiktok&logoColor=ff000000&link=https://tiktok.com/@zeroyt7" /></a>
 </p>
 
 ## ```SETTING```
@@ -48,12 +48,14 @@
 
 ## ```DONASI```
 
-- [`SAWERIA`](https://saweria.co/ZeroYT7)
-- [`SOCIABUZZ`](https://sociabuzz.com/zeroyt7/tribe)
+- [`TELKOMSEL`](082160795453)
+- [`DANA`](082160795453)
+- [`OVO`](082160795453)
+- [`GOPAY`](082160795453)
 
 ## ```GROUP BOT```
 
-- [`GROUP WA`](https://chat.whatsapp.com/BM0HVJKYR2BI8JJUlQO2ue)
+- [`GROUP WA`](https://chat.whatsapp.com/E0vOxKBXgjw7BsCjFKogxd)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -98,9 +100,9 @@ npm start
 ```
 ## Big Thanks To
 ```
-• Zero YT7
-• Chaliph
-• Mhankbarbar
+• Hikana Botz7 Official
+• Khalila Aina Billa
+• Imam Habib Modz
 • Allah S.W.T
 • Ortu
 • All Creator Bot
