@@ -378,7 +378,7 @@ switch (command) {
 				latensi = speed() - timestamp	
               menunya = 
 `Hi ${pushname}, ${tampilUcapan}✨
-Saya ${botname} Yg Siap Membantu Anda Dalam Kinerja Whatsapp Agar Mempermudah Seperti Membuat Sticker , Dll
+Saya ${botname} Yg Siap Membantu Anda Dalam Whatsapp Agar Mempermudah Seperti Membuat Sticker , Dll
 
 ╭─❒ 「 Bot Info 」 ❒
 ├ Nama Bot : ${botname}
@@ -427,7 +427,7 @@ Saya ${botname} Yg Siap Membantu Anda Dalam Kinerja Whatsapp Agar Mempermudah Se
 │ あ ${prefix}report
 └⬣`
 teks =
-`Ini Base Buatan Zero YT7 Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
+`Ini Base Buatan HIKANA BOT Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
 but = [
           { buttonId: `${prefix}infobot`, buttonText: { displayText: '☰ INFO' }, type: 1 },
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 }
@@ -439,7 +439,7 @@ timestamp = speed();
 				latensi = speed() - timestamp
                   	teks =
 `┏━➤ *INFO BOT* 
-*┃┃* Creator Bot : Zero YT7
+*┃┃* Creator Bot : Imam habib
 *┃┃* Nama Owner : ${ownername}
 *┃┃* Nama Bot : ${botname}
 *┃┃* Prefix : Multi Prefix
@@ -449,15 +449,15 @@ timestamp = speed();
 *┃┃* Language : Javascript & Nodejs
 *┃┗━━━━━━━━*
 *┃◗ Thanks To Allah S.W.T*
-*┃◗ Thank To Ortu*
-*┃◗ Thank To Zero YT7 (Creator)*
+*┃◗ Thanks To Ortu*
+*┃◗ Thanks To Hikana Botz 7 Official (Creator)*
 *┃◗ Thanks To All Subscriberku*
 *┗━━━━━━━ •*`
                   but = [
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 },
-          { buttonId: `${prefix}sc`, buttonText: { displayText: '☰ SCRIPT' }, type: 1 }
+          { buttonId: `${prefix}sc`, buttonText: { displayText: '☰ SC' }, type: 1 }
         ]
-        sendButton(from, teks, '©Created : Zero YT7', but, mek)
+        sendButton(from, teks, '©Created : Imam Habib', but, mek)
 break
 	
 //━━━━━━━━━━━━━━━[ FITUR GROUP ]━━━━━━━━━━━━━━━━━//
@@ -707,9 +707,9 @@ if (args.length == 0) return reply(`Example: ${prefix + command} Hai`)
 buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
 zeroyt7.sendMessage(from, buffer, sticker, { quoted: ftrol })
 break
-case 'sticker':
-case 'stiker':
-case 's':
+case 'sticker':Imam habib
+case 'stiker':Imam habib
+case 's':imam habib
 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 let media = await zeroyt7.downloadAndSaveMediaMessage(encmedia, './database/media_user')
@@ -820,7 +820,7 @@ ran = getRandom('.webp')
 exec(`ffmpeg -i ${anum} ${ran}`, (err) => {
 fs.unlinkSync(anum)
 buffer = fs.readFileSync(ran)
-zeroyt7.sendMessage(from, buffer, video, { quoted: ftrol, caption: 'Done... Jangan Lupa Subscribe Zero YT7' })
+zeroyt7.sendMessage(from, buffer, video, { quoted: ftrol, caption: 'Done... Jangan Lupa Subscribe Hikana Botz' })
 fs.unlinkSync(ran)
 })
 break
@@ -830,7 +830,7 @@ break
 case 'owner':
 let inilist = []
 for (let i of ownerNumber) {
-let vname = zeroyt7.contacts[i] != undefined ? zeroyt7.contacts[i].vname || zeroyt7.contacts[i].notify : undefined
+let vname = Imam Habib.contacts[i] != undefined ? Imam habib.contacts[i].vname || Imam habib.contacts[i].notify : undefined
 inilist.push({
 "displayName": 'ZeroYT7',
 "vcard": 'BEGIN:VCARD\n'
@@ -851,7 +851,7 @@ button = [
   {buttonId: '.tiktok', buttonText: {displayText: '☰ TIKTOK'}, type: 1}
 ]
  buttons = {
-    contentText: 'Nih Nomer Owner Ku Mau Tau Tentang Apa Ya ?',
+    contentText: 'Nih Nomer Owner Ku Jangan Di Telpon Y😌',
     footerText: faketeks,
     buttons: button,
     headerType: 1
@@ -866,7 +866,7 @@ for (let _ of anu) {
 buttonss = [{buttonId: `${prefix}menu`, buttonText: {displayText: '☰ MENU'}, type: 1},{buttonId: `${prefix}sewabot`, buttonText: {displayText: '☰ SEWA BOT'}, type: 1}]
 const btnbc = {
 contentText: `${q}`,
-footerText: '*SILAHKAN TEKAN BUTTON UNTUK INFORMASI LANJUT*',
+footerText: '*SILAHKAN TEKAN BUTTON NYA UNTUK INFORMASI SETERUSNYA*',
 buttons: buttonss,
 headerType: 1
 }
@@ -883,22 +883,22 @@ var options = {
 text: teks1,
 contextInfo: { mentionedJid: [nomor] },
 }
-zeroyt7.sendMessage(`6285157740529@s.whatsapp.net`, options, text, { quoted: ftrol })
+zeroyt7.sendMessage(`6282160795453@s.whatsapp.net`, options, text, { quoted: ftrol })
 reply('Masalah Telah Di Laporkan Ke Owner BOT, Mohon Tunggu Untuk Proses Perbaikan')
 break
 case 'youtube':
 teks =
-`Nih Youtube Owner Ku Jangan Lupa Di Subscribe Ya https://youtube.com/ZeroYT7`
+`Nih Youtube Owner Ku Jangan Lupa Di Subscribe Ya https://youtube.com/@HikanaBotz`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'instagram':
 teks =
-`Nih Instagram Owner Ku Jangan Lupa Di Follow Ya https://instagram.com/Zero_YT7`
+`Nih Instagram Owner Ku Jangan Lupa Di Follow Ya https://instagram.com/@habibimampro`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'tiktok':
 teks =
-`Nih Tiktok Owner Ku Jangan Lupa Di Follow Ya https://tiktok.com/@_zeroyt7`
+`Nih Tiktok Owner Ku Jangan Lupa Di Follow Ya https://tiktok.com/@imamhabibam`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
 case 'sourcecode':
@@ -907,11 +907,11 @@ case 'sc':
 teks = 
 `*Bot Ini Menggunakan Sourcecode*
 ╭─────────────────────
-├ Sc Ori = https://github.com/Zero-YT7/Base-ZeroYT7
-├ Sc Full Fitur = https://youtube.com/ZeroYT7
+├ Sc Ori = https://github.com/Mr-HabibZ1
+├ Sc Full Fitur = https://youtube.com/@HikanaBotz
 ├─────────────────────
-├ Creator Base = Zero YT7
-├ Creator Sc = Zero YT7
+├ Creator Base = Imam Habib Modz
+├ Creator Sc = Imam habib Modz
 └─────────────────────`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
